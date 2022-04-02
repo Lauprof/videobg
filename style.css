@@ -1,0 +1,68 @@
+*{
+padding:0;
+margin:0;
+
+}
+header video{
+min-width:100%;
+min-height:100%;
+position:absolute;
+bottom:0;
+right:0;
+
+
+}
+.overlay{
+width:100vw;
+height:100vh;
+position:absolute;
+top:0;
+left:0;
+background:#130f40;
+z-index:1;
+opacity:0.6;
+
+
+}
+section{
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+
+
+}
+.content{
+text-align:center;
+color:#fff;
+z-index:2;
+padding:1rems;
+
+
+
+}
+.content h1{
+font-family:Courier new,monospace;
+font-size:44px;
+margin-bottom:10px;
+
+}
+.content p{
+font-family:Courier new,monospace;
+font-size:24px;
+margin-bottom:20px;
+line-height:24px;
+
+}
+.content button{
+border: 2px solid teal;
+font-family:Courier new,monospace;
+padding:10px 20px;
+font-size:16px;
+margin:15px;
+background:none;
+color:orange;
+font-weight:500;
+
+
+}
